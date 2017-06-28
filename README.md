@@ -24,3 +24,32 @@
 则是存放数据的文件，格式为：每一行一条数据。
 
 程序会忽略空行，以及内容前后的空格
+
+# 用例
+
+
+```bash
+[14:46:33] emacsist:mq-cli git:(master) $ ./mq_cli-macos
+目标队列名为: hello
+send data OK =>hello world
+send data OK =>alsdkfslkfs
+send data OK =>fsaf
+send data OK =>sdf
+send data OK =>as
+send data OK =>f
+send data OK =>asdf
+send data OK =>asf
+send data OK =>sa
+send data OK =>fsa
+send data OK =>f
+send data OK =>sf
+send data OK =>saf
+send data OK =>as
+send data OK =>f
+send data OK =>sdf
+send data OK =>asf
+send data OK =>as
+send data OK =>f
+send data OK =>asf
+Done.
+```
